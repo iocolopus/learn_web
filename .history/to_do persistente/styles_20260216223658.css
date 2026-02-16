@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgba(44, 44, 44, 0.548);
+    padding: 10px;
+}
+
+header, #notes-container, #note-creation-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    background-color:rgb(205, 212, 212);
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.3) ;
+}
+
+header {
+    text-align: center;
+    display: block;
+    
+}
+
+#notes-container {
+    min-height: 200px;
+    min-height: 500px;
+    height: 80%;
+
+
+}
+
+.note {
+    border-left: 2px solid rgb(58, 58, 58);
+    margin: 10px;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    list-style: none;
+    background-color: aliceblue;
+    transform: translateX(0);
+    transition: all 0.3s ease;
+}
+
+.note:hover {
+    transform: translateX(10px);
+}
+
+#note-creation-container {
+    padding: 10px;
+
+    margin-top: 10px;
+    text-align: center;
+
+    
+
+}
+
+#text_box {
+    width: 78%;
+    height: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    font-size: 15px;
+    
+}
+
+#text_box:focus {
+    outline: 2px solid black;
+
+}
+
+.button {
+    background-color: black;
+    transition: all 0.2s ease;
+    color: white;
+    height: 40px;
+    width: 10%;
+    border: none;
+    border-radius: 20px;
+}
+
+#delete {
+    background-color: #c0392b;
+}
+
+#delete:hover {
+    background-color: #e74c3c;
+}
+
+#create {
+    background-color: #2bc064;
+}
+
+#create:hover {
+    background-color: #34ee7b;
+}
+
+
+.button:hover {
+    background-color: gray;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#btn_del_note {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#btn_del_note:hover {
+    transform: translate(3px, 0);
+    background-color: #c0392b;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif
+}   
