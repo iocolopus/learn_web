@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>    
+    <h1 id="title">Formulario para Chipis</h1>
+    <p>Este es un formulario para cuando Chipis se enfada y me chilla.</p>
+    </header>
+    <main>
+        <form id="form">
+            <fieldset>
+                <legend>Datos básicos del enfado</legend>
+                
+                
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha" id="fecha">
+                
+                <br>
+                <label>Lugar del enfado</label>
+                <br> 
+
+                <label for="l1">Calle</label>
+                <input type="radio" name="lugar" id="l1">
+
+                <label for="l2">Casa</label>
+                <input type="radio" name="lugar" id="l2">
+
+                <label for="l3">Coche</label>
+                <input type="radio" name="lugar" id="l3">
+
+                <label for="l4">Rocódromo</label>
+                <input type="radio" name="lugar" id="l4">
+                
+                <br>
+
+                <label for="tipo">Tipo de enfado</label>
+
+                <select name="tipo" id="tipo">
+                    <option value="debate">Debate + Gritos + Defensiva</option>
+                    <option value="llamada">Llamada + Hector se quiere ir a dormir</option>
+                    <option value="rocodromo">Rocodromo + "Falta de caso"</option>
+                    <option value="amigos">Presencia de amigos de Héctor</option>
+                    <option value="sofia">Sofia estaba de mala ostia por motivos X</option>
+                    <option value="ingnorancia">Hector me ignora</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <br>
+                
+                <label for="motivo">Describe brevemente el motivo del enfado</label><br>
+                <textarea name="motivo" id="motivo" cols="40" rows="3"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Detalles del enfado
+                </legend>
+                
+                <label for="intensidad">Evalua del 0 al 5 la intensidad del enfado:</label>
+                <input type="range" name="intensidad" id="intensidad" min="0" max="5">
+                <br>
+
+
+                <label for="motivo_sn">Crees que el enfado ha tenido un motivo proporcionado</label>
+                <input type="checkbox" name="motivo_sn" id="motivo_sn">
+                <br>
+
+                <label for="insistir">Me he puesto triste y he insistido en "irnos bien" aunque ya la habia cagado mucho</label>
+                <input type="checkbox" name="insistir" id="insistir">
+                <br>
+
+                <label for="pesimista">Me he puesto triste y pesimista y he llorado por dejarlo/no me quieres</label>
+                <input type="checkbox" name="pesimista" id="pesimista">
+                <br>
+
+                <label for="perdon">He pedido perdón</label>
+                <input type="checkbox" name="perdon" id="perdon">
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Disculpa
+                </legend>
+
+                <label for="disculpa">Detalla a continuacion una disculpa</label><br>
+                <textarea name="disculpa" id="disculpa" cols="40" rows="3"></textarea>
+
+                <br>
+                <label for="amor">Hector me quiere</label>
+                <input type="checkbox" name="amor" id="amor" disabled>
+                <br>
+
+                <label for="galleta">Me sentiria mejor si me das una galleta</label>
+                <br>
+
+                <label for="si_1">Sí</label>
+                <input type="radio" name="galleta" id="si_1" value="si"> 
+
+                
+                <label for="si_2">Sí</label>
+                <input type="radio" name="galleta" id="si_2" value="si"> 
+
+            </fieldset>
+
+            <button type="submit" id="submit">Enviar</button>
+        </form>
+
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
