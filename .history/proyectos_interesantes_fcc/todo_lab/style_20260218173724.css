@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+}
+
+
+
+.post-img {
+    width: 400px;
+}
+
+.post-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, );
+}

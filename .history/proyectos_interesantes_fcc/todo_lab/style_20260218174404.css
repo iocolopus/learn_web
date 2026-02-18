@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+
+
+.post-img {
+    width: 100%;
+    
+}
+
+.blog-post-card {
+    height: 500;
+    width: 400;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 3px rgba(221, 221, 221, 20);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(245, 245, 245);
+}

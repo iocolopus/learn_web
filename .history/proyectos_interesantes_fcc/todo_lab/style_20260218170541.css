@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+}
+
+.todo-list {
+    display: inline-block;
+    margin-left: 100vh;
+    padding: 10px;
+    background-color: antiquewhite;
+    list-style-position: inside;
+    border-radius: 12px;
+}
+
+.todo-list li {
+    margin: ;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: lightskyblue;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:focus {
+    outline: 2px;
+    outline-color: red;
+}
+
+a:active {
+    outline: 2px;
+    outline-color: blue;
+}
+
+
+a:link {
+    color: black;
+}

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(172, 186, 196);
+}
+
+header {
+    background-color: rgb(172, 186, 196);
+    border-bottom: 2px solid rgb(48, 54, 79);
+    height: 90px;
+    text-align: left;
+    margin-left: ;
+    text-align: center;
+}
+
+#pageLogo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 20px;
+    display: inline-block;
+    width: 50px;
+    
+}
+
+#headerText {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.navBar {
+    position: fixed;
+    transition: all 0.2s ease;
+    background-color: rgb(48, 54, 79);
+    height: calc(100vh - 90px);
+    width: 100px;
+    overflow: hidden;
+    border-radius: 0 10px 10px 0;
+}
+
+.navBar:hover{
+    width: 200px;
+}
+
+.navItem.inNavItem{
+    background-color: rgba(172, 186, 196, 0.1);
+    border-radius: 5px;
+}
+
+.navItem:hover{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(172, 186, 196, 0.2) !important;
+    border-radius: 5px;
+}
+
+.navItem {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.navIcon {
+    width: 50px;
+    margin-left: 4px;
+    height: auto;
+    display: inline-block;
+    fill: rgb(172, 186, 196);
+}
+
+
+
+.navText{
+    display: none;
+    margin-left: 20px;
+    color: rgb(172, 186, 196);
+    transform: translate(0, -60%);
+}
+
+.navText.transparent{
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.navText.opaque{
+    opacity: 1;
+}
+
+.navText.hovered{
+    display: inline-block;
+    
+    margin-left: 20px;
+    color: rgb(172, 186, 196);
+    transform: translate(0, -60%);
+    
+}

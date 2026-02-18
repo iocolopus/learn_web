@@ -1,0 +1,9 @@
+section {
+    display: none;
+}
+
+section.inSection {
+    margin-left: 500px;
+    text-align: center;
+    display: block;
+}

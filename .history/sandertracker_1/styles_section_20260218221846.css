@@ -1,0 +1,12 @@
+section {
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    color: white;
+    text-shadow: 4px 4px 20px rgba(0, 0, 0, 1);
+}
+
+section.inSection {
+    text-align: center;
+    display: block;
+}

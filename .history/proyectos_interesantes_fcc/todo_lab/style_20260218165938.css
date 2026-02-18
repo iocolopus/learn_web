@@ -1,0 +1,9 @@
+* {
+    margin: 0px;
+}
+
+.todo-list {
+    display: in;
+    margin-left: 100vh;
+    background-color: antiquewhite;
+}

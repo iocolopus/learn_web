@@ -1,0 +1,9 @@
+section {
+    display: none;
+}
+
+section.inSection {
+    te
+    display: inline-block;
+    transform: translateY(-80vh);
+}

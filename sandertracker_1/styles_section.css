@@ -1,0 +1,16 @@
+section {
+    padding: 10px;
+    margin-top: 80px;
+    display: none;
+    color: white;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
+}
+
+#fastapText {
+    margin: 50px;
+}
+
+section.inSection {
+    text-align: center;
+    display: block;
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+.navBar {
+    display: inline;
+    background-color: rgb(48, 54, 79);
+    
+}
+
+.navItem {
+
+}
+
+
+
+.navIcon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+
+
+.navText{
+    display: inline-block;
+}

@@ -1,0 +1,10 @@
+section {
+    display: none;
+}
+
+section.inSection {
+    text-align: center;
+    display: inline-block;
+    width: ;
+    transform: translateY(-83vh);
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+}
+
+.todo-list {
+    display: inline-block;
+    margin-left: 100vh;
+    padding: 10px;
+    background-color: antiquewhite;
+    list-style-position: inside;
+    border-radius: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+
+a:link {
+    color: black;
+}

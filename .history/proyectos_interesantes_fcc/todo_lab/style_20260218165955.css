@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+}
+
+.todo-list {
+    display: inline-block;
+    margin-left: 100vh;
+    padding: ;
+    background-color: antiquewhite;
+}

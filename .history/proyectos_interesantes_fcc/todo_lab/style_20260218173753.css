@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: gray;
+}
+
+
+
+.post-img {
+    width: 400px;
+}
+
+.blog-post-card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+}
+
+
+
+.post-img {
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    width: 400px;
+}

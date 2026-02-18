@@ -1,0 +1,11 @@
+section {
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    color: ;
+}
+
+section.inSection {
+    text-align: center;
+    display: block;
+}
